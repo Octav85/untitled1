@@ -7,6 +7,7 @@ public class ChisinauEvidenceCatalog {
         Person octavianPlopa = new Person(4654412212L);
 
         Person marianaOleinic = new Person(45244414L, "Mariana", false, 28);
+        System.out.println(marianaOleinic.isMarried + marianaOleinic.name);
 
     }
 }

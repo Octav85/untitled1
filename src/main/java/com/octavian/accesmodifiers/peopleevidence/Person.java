@@ -6,7 +6,7 @@ public class Person {
 
     public static int numartotaldepersoane;
 
-    private final long cnp;
+    private long cnp;
     public String name;
     public String gender;
     public String surname;
@@ -17,7 +17,7 @@ public class Person {
     double weight;
     String education;
     String nationality;
-    boolean isMarried;
+    public boolean isMarried;
     String readingBook;
     String mailAddress;
     String occupation;
@@ -29,22 +29,11 @@ public class Person {
         this.isMarried = isMarried;
         this.age = age;
 
-    public Person( long cnpobligotariu){
-            cnp = cnpobligotariu;
-            numartotaldepersoane++;
-        }
     }
 
-    public void setAge(int inputage) {
-        if (inputage > 0) {
-            if (inputage < 128)
-                this.age = inputage;
-        } else {
-            System.out.println("age exceeded");
-        }else{
-            System.out.println("age cannot be 0");
-        }
-
-        this.age = inputage;
+    public Person(long cnpobligotariu) {
+        cnp = cnpobligotariu;
+        numartotaldepersoane++;
     }
 }
+

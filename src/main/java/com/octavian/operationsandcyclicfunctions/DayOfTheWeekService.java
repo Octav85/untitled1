@@ -3,7 +3,7 @@ package com.octavian.operationsandcyclicfunctions;
 public class DayOfTheWeekService {
     public static void main(String[] args) {
         int numberOfDay;
-        String dayName = "duminica";
+        String dayName = "luni";
 
         switch (dayName) {
             case "luni":
@@ -33,6 +33,6 @@ public class DayOfTheWeekService {
 
 
         }
-        System.out.println(" numarul zilei " + dayName + " este " + numberOfDay);
+        System.out.println(" numarul zilei " + dayName.toUpperCase() + " este " + numberOfDay);
     }
 }

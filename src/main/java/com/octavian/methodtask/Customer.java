@@ -10,7 +10,7 @@ public class Customer {
         this.email = email;
         if ((age <= 1) || (age > 127)) {
             System.out.println("the age is invalid");
-        } else{
+        } else {
             this.age = age;
         }
     }
@@ -32,13 +32,12 @@ public class Customer {
     }
 
     public void setAge(int newAge) {
-        if ((newAge <= 1) || (newAge > 127))  {
+        if ((newAge <= 1) || (newAge > 127)) {
             System.out.println("the age is invalid");
-        } else{
+        } else {
             this.age = newAge;
         }
     }
-
 
 
     public void setEmail(String newEmail) {

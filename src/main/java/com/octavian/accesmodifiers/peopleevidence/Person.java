@@ -32,7 +32,7 @@ public class Person {
     }
 
     public Person(long cnpobligotariu) {
-        cnp = cnpobligotariu;
+        this.cnp = cnpobligotariu;
         numartotaldepersoane++;
     }
 }

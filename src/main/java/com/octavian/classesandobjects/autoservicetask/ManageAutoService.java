@@ -22,6 +22,7 @@ public class ManageAutoService {
         System.out.println("Masina lui Octavian este: " + masinaLuiOctavian.name + ", modelul: " + masinaLuiOctavian.model +
                 ", anul de fabricare:" + masinaLuiOctavian.year);
         Tool elevatorTool = new Tool(154444);
+        System.out.println(elevatorTool.uniqueCod);
 
 
     }

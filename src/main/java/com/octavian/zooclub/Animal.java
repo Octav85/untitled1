@@ -3,11 +3,12 @@ package com.octavian.zooclub;
 public abstract class Animal implements AnimalInterface {
 
     private String name;
-        protected Animal(String name) {
-           this.name = name;
-        }
 
-     public abstract void eat();
+    protected Animal(String name) {
+        this.name = name;
+    }
+
+    public abstract void eat();
 
     public String getName() {
         return this.name;
